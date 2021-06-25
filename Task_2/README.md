@@ -6,11 +6,12 @@
 ・「新規登録」→「ログイン」→「セレクト」の一連の流れを作成.  
 
 ・「DB」構造  
-「id[int(12)],AI」.  
-「name[varchar(128)],utf8_unicode_ci」.  
-「email[varchar(128)],utf8_unicode_ci」.  
-「pass[varchar(16)],utf8_unicode_ci」.  
-「indate[datetime]」.  
+MySQLにて、DB名「dog_db」、テーブル名「t_table」を作成し、以下５カラムをセット（書いてないところはデフォルト)　  
+ 1　名前：id、データ型：int(12)、その他：AUTO_INCREMENT  
+ 2　名前：name、データ型：varchar(128)、照合順序：utf8_unicode_ci　  
+ 3　名前：email、データ型：varchar(128)、照合順序：utf8_unicode_ci   
+ 4　名前：pass、データ型：varchar(16)、照合順序：utf8_unicode_ci   
+ 5　名前：indate、データ型：datetime   
 
 
 ・「新規登録」   
